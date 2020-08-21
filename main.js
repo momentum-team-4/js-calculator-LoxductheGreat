@@ -41,35 +41,35 @@ let plus = document.querySelector('.plus')
 plus.addEventListener("click", function(){
     output.innerText += "+"
 })
-let plus = document.querySelector('.minus')
+plus = document.querySelector('.minus')
 plus.addEventListener("click", function(){
     output.innerText += "-"
 })
 
-let plus = document.querySelector('.divide')
+plus = document.querySelector('.divide')
 plus.addEventListener("click", function(){
     output.innerText += "/"
 })
 
-let plus = document.querySelector('.miltiply')
+plus = document.querySelector('.miltiply')
 plus.addEventListener("click", function(){
     output.innerText += "*"
 })
 
-let plus = document.querySelector('.decimal')
+plus = document.querySelector('.decimal')
 plus.addEventListener("click", function(){
     output.innerText += "."
 })
 
 
 
-// let clear = document.querySelector('.clear')
-// clear.addEventListener("click", function(){
-//     output.innerText("")
-// })
+ let clear = document.querySelector('.clear')
+ clear.addEventListener("click", function(){
+     output.innerText = ""
+ })
 
 let equal = document.querySelector(".equals")
 equal.addEventListener("click", function(){
-   let equation = output.innerText
-   console.log()
+    let equation = output.innerText
+   output.innerText = (eval(equation))
 })
