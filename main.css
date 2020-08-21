@@ -1,0 +1,36 @@
+.shell{
+    border: solid black;
+    display: flex;
+    height: 450px;
+    width: 410px; 
+    
+}
+
+.outputwindow{
+    float: right;
+    background-color: black;
+    color: white;
+    height: 65px;
+    width: 440px;
+    font-size: 2rem;
+    text-align: end;
+}
+
+.actions{
+    list-style: none;
+    display: inline-block;
+    color: black;  
+}
+
+.buttons{
+    display: inline-flex;
+    border: solid black;
+    border-width: 0.01px;
+    text-align: center;
+    height: 90px;
+    width: 70px;
+   font-size: 2rem;
+   color: white;
+   background-color: #F4B747;
+   
+}
