@@ -1,0 +1,8 @@
+.shell{
+    display: grid;
+    grid-gap: 10px;
+}
+
+.buttons{
+    grid-column: 1/ 5;
+}
